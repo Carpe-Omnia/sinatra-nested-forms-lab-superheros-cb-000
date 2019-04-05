@@ -12,7 +12,6 @@ class App < Sinatra::Base
       @member1 = params["team"]["members"][0]
       @member2 = params["team"]["members"][1]
       @member3 = params["team"]["members"][2]
-      @members = [@member1, @member2, @member3]
       @team = params["team"]
       erb :team
     end
