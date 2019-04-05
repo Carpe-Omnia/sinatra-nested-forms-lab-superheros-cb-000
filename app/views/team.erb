@@ -2,6 +2,6 @@
 <p><%= "Team Motto: "@team["motto"] %></p>
 <% @members.each do |member| %>
   <h3><%= member["name"] %></h3>
-  <p><%= member["power"] %></p>
+  <p><%= "Hero Power: "member["power"] %></p>
   <p><%= member["bio"] %></p>
 <% end %>
